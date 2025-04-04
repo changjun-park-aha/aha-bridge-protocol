@@ -1,0 +1,22 @@
+{
+  "name": "aha-bridge-protocol",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev:nextjs": "pnpm --filter nextjs-app dev",
+    "build:nextjs": "pnpm --filter nextjs-app build",
+    "start:nextjs": "pnpm --filter nextjs-app start",
+    "build:android": "pnpm --filter android-app build",
+    "build:ios": "pnpm --filter ios-app build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "private": true,
+  "packageManager": "pnpm@10.1.0",
+  "workspaces": [
+    "apps/*",
+    "libs/*"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "@aha/counter",
+  "version": "0.1.0",
+  "description": "Counter library with cross-platform support",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch"
+  },
+  "dependencies": {
+    "zustand": "^4.4.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2",
+    "@types/react": "^18.2.21"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0"
+  }
+}

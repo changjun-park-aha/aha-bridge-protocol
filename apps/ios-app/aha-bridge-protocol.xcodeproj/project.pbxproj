@@ -1,0 +1,560 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		6BB8098F2D9E84E4006AF183 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6BB809752D9E84E2006AF183 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6BB8097C2D9E84E2006AF183;
+			remoteInfo = "aha-bridge-protocol";
+		};
+		6BB809992D9E84E4006AF183 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6BB809752D9E84E2006AF183 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6BB8097C2D9E84E2006AF183;
+			remoteInfo = "aha-bridge-protocol";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6BB8097D2D9E84E2006AF183 /* aha-bridge-protocol.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "aha-bridge-protocol.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BB8098E2D9E84E4006AF183 /* aha-bridge-protocolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "aha-bridge-protocolTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BB809982D9E84E4006AF183 /* aha-bridge-protocolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "aha-bridge-protocolUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		6BB8097F2D9E84E2006AF183 /* aha-bridge-protocol */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "aha-bridge-protocol";
+			sourceTree = "<group>";
+		};
+		6BB809912D9E84E4006AF183 /* aha-bridge-protocolTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "aha-bridge-protocolTests";
+			sourceTree = "<group>";
+		};
+		6BB8099B2D9E84E4006AF183 /* aha-bridge-protocolUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "aha-bridge-protocolUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6BB8097A2D9E84E2006AF183 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BB8098B2D9E84E4006AF183 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BB809952D9E84E4006AF183 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6BB809742D9E84E2006AF183 = {
+			isa = PBXGroup;
+			children = (
+				6BB8097F2D9E84E2006AF183 /* aha-bridge-protocol */,
+				6BB809912D9E84E4006AF183 /* aha-bridge-protocolTests */,
+				6BB8099B2D9E84E4006AF183 /* aha-bridge-protocolUITests */,
+				6BB8097E2D9E84E2006AF183 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6BB8097E2D9E84E2006AF183 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6BB8097D2D9E84E2006AF183 /* aha-bridge-protocol.app */,
+				6BB8098E2D9E84E4006AF183 /* aha-bridge-protocolTests.xctest */,
+				6BB809982D9E84E4006AF183 /* aha-bridge-protocolUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6BB8097C2D9E84E2006AF183 /* aha-bridge-protocol */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BB809A22D9E84E4006AF183 /* Build configuration list for PBXNativeTarget "aha-bridge-protocol" */;
+			buildPhases = (
+				6BB809792D9E84E2006AF183 /* Sources */,
+				6BB8097A2D9E84E2006AF183 /* Frameworks */,
+				6BB8097B2D9E84E2006AF183 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				6BB8097F2D9E84E2006AF183 /* aha-bridge-protocol */,
+			);
+			name = "aha-bridge-protocol";
+			packageProductDependencies = (
+			);
+			productName = "aha-bridge-protocol";
+			productReference = 6BB8097D2D9E84E2006AF183 /* aha-bridge-protocol.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6BB8098D2D9E84E4006AF183 /* aha-bridge-protocolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BB809A52D9E84E4006AF183 /* Build configuration list for PBXNativeTarget "aha-bridge-protocolTests" */;
+			buildPhases = (
+				6BB8098A2D9E84E4006AF183 /* Sources */,
+				6BB8098B2D9E84E4006AF183 /* Frameworks */,
+				6BB8098C2D9E84E4006AF183 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6BB809902D9E84E4006AF183 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				6BB809912D9E84E4006AF183 /* aha-bridge-protocolTests */,
+			);
+			name = "aha-bridge-protocolTests";
+			packageProductDependencies = (
+			);
+			productName = "aha-bridge-protocolTests";
+			productReference = 6BB8098E2D9E84E4006AF183 /* aha-bridge-protocolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6BB809972D9E84E4006AF183 /* aha-bridge-protocolUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BB809A82D9E84E4006AF183 /* Build configuration list for PBXNativeTarget "aha-bridge-protocolUITests" */;
+			buildPhases = (
+				6BB809942D9E84E4006AF183 /* Sources */,
+				6BB809952D9E84E4006AF183 /* Frameworks */,
+				6BB809962D9E84E4006AF183 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6BB8099A2D9E84E4006AF183 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				6BB8099B2D9E84E4006AF183 /* aha-bridge-protocolUITests */,
+			);
+			name = "aha-bridge-protocolUITests";
+			packageProductDependencies = (
+			);
+			productName = "aha-bridge-protocolUITests";
+			productReference = 6BB809982D9E84E4006AF183 /* aha-bridge-protocolUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6BB809752D9E84E2006AF183 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					6BB8097C2D9E84E2006AF183 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					6BB8098D2D9E84E4006AF183 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 6BB8097C2D9E84E2006AF183;
+					};
+					6BB809972D9E84E4006AF183 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 6BB8097C2D9E84E2006AF183;
+					};
+				};
+			};
+			buildConfigurationList = 6BB809782D9E84E2006AF183 /* Build configuration list for PBXProject "aha-bridge-protocol" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6BB809742D9E84E2006AF183;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 6BB8097E2D9E84E2006AF183 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6BB8097C2D9E84E2006AF183 /* aha-bridge-protocol */,
+				6BB8098D2D9E84E4006AF183 /* aha-bridge-protocolTests */,
+				6BB809972D9E84E4006AF183 /* aha-bridge-protocolUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6BB8097B2D9E84E2006AF183 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BB8098C2D9E84E4006AF183 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BB809962D9E84E4006AF183 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6BB809792D9E84E2006AF183 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BB8098A2D9E84E4006AF183 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BB809942D9E84E4006AF183 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6BB809902D9E84E4006AF183 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6BB8097C2D9E84E2006AF183 /* aha-bridge-protocol */;
+			targetProxy = 6BB8098F2D9E84E4006AF183 /* PBXContainerItemProxy */;
+		};
+		6BB8099A2D9E84E4006AF183 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6BB8097C2D9E84E2006AF183 /* aha-bridge-protocol */;
+			targetProxy = 6BB809992D9E84E4006AF183 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6BB809A02D9E84E4006AF183 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6BB809A12D9E84E4006AF183 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		6BB809A32D9E84E4006AF183 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "aha-bridge-protocol/aha_bridge_protocol.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"aha-bridge-protocol/Preview Content\"";
+				DEVELOPMENT_TEAM = 4V9G3R5TQJ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aha.aha-bridge-protocol";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		6BB809A42D9E84E4006AF183 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "aha-bridge-protocol/aha_bridge_protocol.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"aha-bridge-protocol/Preview Content\"";
+				DEVELOPMENT_TEAM = 4V9G3R5TQJ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aha.aha-bridge-protocol";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		6BB809A62D9E84E4006AF183 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4V9G3R5TQJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aha.aha-bridge-protocolTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/aha-bridge-protocol.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/aha-bridge-protocol";
+			};
+			name = Debug;
+		};
+		6BB809A72D9E84E4006AF183 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4V9G3R5TQJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aha.aha-bridge-protocolTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/aha-bridge-protocol.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/aha-bridge-protocol";
+			};
+			name = Release;
+		};
+		6BB809A92D9E84E4006AF183 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4V9G3R5TQJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aha.aha-bridge-protocolUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "aha-bridge-protocol";
+			};
+			name = Debug;
+		};
+		6BB809AA2D9E84E4006AF183 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4V9G3R5TQJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aha.aha-bridge-protocolUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "aha-bridge-protocol";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6BB809782D9E84E2006AF183 /* Build configuration list for PBXProject "aha-bridge-protocol" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BB809A02D9E84E4006AF183 /* Debug */,
+				6BB809A12D9E84E4006AF183 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BB809A22D9E84E4006AF183 /* Build configuration list for PBXNativeTarget "aha-bridge-protocol" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BB809A32D9E84E4006AF183 /* Debug */,
+				6BB809A42D9E84E4006AF183 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BB809A52D9E84E4006AF183 /* Build configuration list for PBXNativeTarget "aha-bridge-protocolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BB809A62D9E84E4006AF183 /* Debug */,
+				6BB809A72D9E84E4006AF183 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BB809A82D9E84E4006AF183 /* Build configuration list for PBXNativeTarget "aha-bridge-protocolUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BB809A92D9E84E4006AF183 /* Debug */,
+				6BB809AA2D9E84E4006AF183 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6BB809752D9E84E2006AF183 /* Project object */;
+}
